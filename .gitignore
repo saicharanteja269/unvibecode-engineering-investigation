@@ -1,0 +1,29 @@
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Cloned target repositories
+starlette/
+repo/
+unvibecode_src/
+src/
+
+# Large temporary files and caches
+existing_issues.json
+*.zip
+starlette_results/
+starlette_context/
+starlette_full_results/
+
+# Intermediate exploration scripts
+analyze_unresolved.py
+check_*.py
+inspect_*.py
+search_*.py
+list_issues.py
+print_lines.py
+parse_*.py
+extract_wf3.py
+fetch_*.py
+wait_and_download.py
